@@ -3,13 +3,13 @@ Airport ERP system built with C# WPF and MSSQL.
 
 A desktop application for managing airport operations, developed as a university project (awarded the highest grade). The system enables flight tracking, passenger management, ticket reservations, and visual data representation through a modern user interface.
 
-## 🛠️ Technologies
+## Technologies
 * **Backend & Logic:** C# (Object-Oriented Programming)
 * **Frontend (UI):** WPF (Windows Presentation Foundation)
 * **Database:** MS SQL Server (Relational Database, T-SQL)
 * **Architecture:** 3-Tier Architecture (UI, BLL, DAL)
 
-## 📊 System Design & UML Architecture
+## System Design & UML Architecture
 Prior to coding, the system was thoroughly modeled using UML standards to ensure architectural robustness and scalability.
 
 ### 1. Use Case Diagram
@@ -24,7 +24,7 @@ Represents the static structure of the system, including associations, compositi
 Illustrates the dynamic interaction and flow of messages over time during the flight reservation process.
 ![Sequence Diagram](UML_sequence.png)
 
-## 🗄️ Database (MSSQL)
+## Database (MSSQL)
 The database is designed in the Third Normal Form (3NF) with strict referential integrity rules (Foreign Keys, Cascade Delete). 
 
 **How to run the database locally:**
@@ -32,7 +32,7 @@ The database is designed in the Third Normal Form (3NF) with strict referential 
 2. Execute the `AirportSystemScript.sql` (DDL) script to generate the tables and relations.
 3. Execute the `AirportSystem.sql` (DML) script to insert initial/test data into the system.
 
-## 🚀 How to Run the Application
+## How to Run the Application
 1. Clone this repository to your local machine.
 2. Ensure the database is configured (see the steps above).
 3. Open the `AirportProject.sln` solution file in Visual Studio.
