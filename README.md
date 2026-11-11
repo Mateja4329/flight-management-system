@@ -3,6 +3,10 @@ Airport ERP system built with C# WPF and MSSQL.
 
 A desktop application for managing airport operations, developed as a university project (awarded the highest grade). The system enables flight tracking, passenger management, ticket reservations, and visual data representation through a modern user interface.
 
+## Documentation
+Comprehensive technical documentation on Serbian (50+ pages) detailing the architecture, requirements, database normalization (3NF), UML modeling, and UI state management is available in the repository:
+* [View Full Project Documentation (PDF)](AirportProject/docs/airport_management_system.pdf)
+
 ## Technologies
 * **Backend & Logic:** C# (Object-Oriented Programming)
 * **Frontend (UI):** WPF (Windows Presentation Foundation)
